@@ -1,0 +1,375 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 非特定语言 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SEP2P_API_SAMPLE_DIALOG DIALOGEX 0, 0, 647, 369
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SEP2P_API_Sample"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VIDEO0,"Static",SS_BLACKRECT,1,3,200,150
+    PUSHBUTTON      "Connect",IDC_CONNECT1,31,169,42,14
+    PUSHBUTTON      "StartVideo",IDC_START_VIDEO1,76,169,42,14
+    PUSHBUTTON      "Start LAN Search",IDC_LANSEARCH,519,2,71,14
+    PUSHBUTTON      "Clear Log",IDC_CLEAR_LOG,594,2,50,14
+    EDITTEXT        IDC_EDIT3,413,20,231,315,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "StartAudio",IDC_START_AUDIO1,118,169,42,14
+    CONTROL         "",IDC_VIDEO1,"Static",SS_BLACKRECT,210,3,200,150
+    CONTROL         "",IDC_VIDEO2,"Static",SS_BLACKRECT,1,186,200,150
+    CONTROL         "",IDC_VIDEO3,"Static",SS_BLACKRECT,210,186,200,150
+    PUSHBUTTON      "StartTalk",IDC_START_TALK1,160,169,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT_DEVICE1,1,169,27,14
+    LTEXT           "",IDC_STATUS1,1,155,147,13,SS_SUNKEN
+    PUSHBUTTON      "Connect",IDC_CONNECT2,239,169,42,14
+    PUSHBUTTON      "StartVideo",IDC_START_VIDEO2,284,169,42,14
+    PUSHBUTTON      "StartAudio",IDC_START_AUDIO2,326,169,42,14
+    PUSHBUTTON      "StartTalk",IDC_START_TALK2,368,169,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT_DEVICE2,209,169,27,14
+    LTEXT           "",IDC_STATUS2,209,155,199,13,SS_SUNKEN
+    PUSHBUTTON      "Connect",IDC_CONNECT3,31,351,42,14
+    PUSHBUTTON      "StartVideo",IDC_START_VIDEO3,76,351,42,14
+    PUSHBUTTON      "StartAudio",IDC_START_AUDIO3,118,351,42,14
+    PUSHBUTTON      "StartTalk",IDC_START_TALK3,160,351,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT_DEVICE3,1,351,27,14
+    LTEXT           "",IDC_STATUS3,1,337,199,13,SS_SUNKEN
+    PUSHBUTTON      "Connect",IDC_CONNECT4,240,351,42,14
+    PUSHBUTTON      "StartVideo",IDC_START_VIDEO4,285,351,42,14
+    PUSHBUTTON      "StartAudio",IDC_START_AUDIO4,327,351,42,14
+    PUSHBUTTON      "StartTalk",IDC_START_TALK4,369,351,42,14
+    PUSHBUTTON      "Edit",IDC_EDIT_DEVICE4,210,351,27,14
+    LTEXT           "",IDC_STATUS4,210,337,199,13,SS_SUNKEN
+    COMBOBOX        IDC_COMBO1,413,338,54,62,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,469,337,175,104,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "GetRequest",IDC_GET_REQ,537,353,50,14
+    PUSHBUTTON      "SetRequest",IDC_SET_REQ,595,353,50,14
+    LTEXT           "静态",IDC_APIVER,415,4,98,8
+    COMBOBOX        IDC_COMBO3,150,155,51,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 176, 118
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Device Information"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "DID:",IDC_STATIC,37,11,19,8
+    RTEXT           "Username:",IDC_STATIC,11,30,45,8
+    RTEXT           "Password:",IDC_STATIC,11,44,45,8
+    EDITTEXT        IDC_EDIT1,67,8,76,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,67,27,76,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,67,42,76,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDCANCEL,37,97,50,14
+    PUSHBUTTON      "OK",IDC_OK,88,97,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SEP2P_API_SAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 644
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 367
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SEP2P_API_SAMPLE_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x6544, 0x6976, 0x6563, 0x0031, 
+    IDC_COMBO1, 0x403, 8, 0
+0x6544, 0x6976, 0x6563, 0x0032, 
+    IDC_COMBO1, 0x403, 8, 0
+0x6544, 0x6976, 0x6563, 0x0033, 
+    IDC_COMBO1, 0x403, 8, 0
+0x6544, 0x6976, 0x6563, 0x0034, 
+    IDC_COMBO2, 0x403, 21, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4143, 0x454d, 0x4152, 0x505f, 0x5241, 
+0x4d41, "\000" 
+    IDC_COMBO2, 0x403, 21, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x5543, 0x5252, 0x4e45, 0x5f54, 0x4957, 
+0x4946, "\000" 
+    IDC_COMBO2, 0x403, 18, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4957, 0x4946, 0x4c5f, 0x5349, 0x0054, 
+
+    IDC_COMBO2, 0x403, 18, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x5355, 0x5245, 0x495f, 0x464e, 0x004f, 
+
+    IDC_COMBO2, 0x403, 17, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4144, 0x4554, 0x4954, 0x454d, "\000" 
+    IDC_COMBO2, 0x403, 17, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x5446, 0x5f50, 0x4e49, 0x4f46, "\000" 
+    IDC_COMBO2, 0x403, 19, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4d45, 0x4941, 0x5f4c, 0x4e49, 0x4f46, 
+"\000" 
+    IDC_COMBO2, 0x403, 19, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4c41, 0x5241, 0x5f4d, 0x4e49, 0x4f46, 
+"\000" 
+    IDC_COMBO2, 0x403, 25, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x4453, 0x4143, 0x4452, 0x525f, 0x4345, 
+0x505f, 0x5241, 0x4d41, "\000" 
+    IDC_COMBO2, 0x403, 38, 0
+0x4547, 0x5f54, 0x4544, 0x4956, 0x4543, 0x565f, 0x5245, 0x4953, 0x4e4f, 
+0x532f, 0x5445, 0x6628, 0x726f, 0x616d, 0x2074, 0x4453, 0x6143, 0x6472, 
+0x0029, 
+    IDC_COMBO2, 0x403, 3, 0
+0x5450, "\000" 
+    IDC_COMBO2, 0x403, 17, 0
+0x7355, 0x7265, 0x6420, 0x6665, 0x6e69, 0x6465, 0x6d20, 0x6773, "\000" 
+    IDC_COMBO2, 0x403, 22, 0
+0x4547, 0x5f54, 0x4552, 0x4f43, 0x4452, 0x445f, 0x5941, 0x425f, 0x5f59, 
+0x4f4d, 0x004e, 
+    IDC_COMBO2, 0x403, 23, 0
+0x4547, 0x5f54, 0x4552, 0x4f43, 0x4452, 0x465f, 0x4c49, 0x5f45, 0x5942, 
+0x445f, 0x5941, "\000" 
+    IDC_COMBO2, 0x403, 24, 0
+0x534d, 0x5f47, 0x5453, 0x5241, 0x5f54, 0x4c50, 0x5941, 0x525f, 0x4345, 
+0x465f, 0x4c49, 0x0045, 
+    IDC_COMBO2, 0x403, 23, 0
+0x534d, 0x5f47, 0x5453, 0x504f, 0x505f, 0x414c, 0x5f59, 0x4552, 0x5f43, 
+0x4946, 0x454c, "\000" 
+    IDC_COMBO2, 0x403, 19, 0
+0x6547, 0x2f74, 0x6553, 0x2074, 0x5069, 0x7375, 0x2068, 0x6e49, 0x6f66, 
+"\000" 
+    IDC_COMBO2, 0x403, 19, 0
+0x4547, 0x2f54, 0x4553, 0x5f54, 0x5355, 0x5245, 0x495f, 0x464e, 0x324f, 
+"\000" 
+    IDC_COMBO3, 0x403, 9, 0
+0x6843, 0x6e61, 0x656e, 0x316c, "\000" 
+    IDC_COMBO3, 0x403, 9, 0
+0x6843, 0x6e61, 0x656e, 0x326c, "\000" 
+    IDC_COMBO3, 0x403, 9, 0
+0x6843, 0x6e61, 0x656e, 0x336c, "\000" 
+    IDC_COMBO3, 0x403, 9, 0
+0x6843, 0x6e61, 0x656e, 0x346c, "\000" 
+    0
+END
+
+#endif    // 非特定语言 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\SEP2P_API_Sample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SEP2PAppSDKDemo.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SEP2P_API_Sample"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "SEP2P_API_Sample, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "FileVersion", "1.0.0.2"
+            VALUE "InternalName", "SEP2P_API_Sample.exe"
+            VALUE "OriginalFilename", "SEP2P_API_Sample.exe"
+            VALUE "ProductVersion", "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About SEP2P_API_Sample..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\SEP2P_API_Sample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

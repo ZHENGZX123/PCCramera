@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/didline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/didtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/str_did" />
+
+        <EditText
+            android:id="@+id/didedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/usertext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/str_user" />
+
+        <EditText
+            android:id="@+id/useredit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="admin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pwdline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/pwdtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/str_pwd" />
+        <EditText
+            android:id="@+id/pwdedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="123456"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal" 
+	        android:layout_weight="1">
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="#FF000000" >
+	        <com.example.samplesep2p_appsdk.TouchedView
+	            android:id="@+id/view_live1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:scaleType="matrix" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:background="#FFCCCCCC" >
+	        <com.example.samplesep2p_appsdk.TouchedView
+	            android:id="@+id/view_live2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:scaleType="matrix" />
+	    </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/userline1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="@string/str_con" />
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="@string/str_start_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ptzctrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:layout_weight="1"
+            android:text="@string/str_up" />
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:layout_weight="1"
+            android:text="@string/str_down" />
+
+        <Button
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:layout_weight="1"
+            android:text="@string/str_left" />
+
+        <Button
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:layout_weight="1"
+            android:text="@string/str_right" />
+        
+     <!--    <Button
+            android:id="@+id/btn_get_recfiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:layout_weight="1"
+            android:text="@string/str_get_recfiles" /> -->
+        <Button
+            android:id="@+id/btn_playback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/about_rec_back" 
+            android:layout_weight="1"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/playline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/str_play_video" />
+
+        <Button
+            android:id="@+id/btn_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/str_play_audio" />
+
+        <Button
+            android:id="@+id/btn_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/str_play_talk" />
+
+        <Button
+            android:id="@+id/btn_snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/str_play_snap" />
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="@string/str_play_record" />
+        
+         <Button
+            android:id="@+id/btn_other_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:onClick="btnClick"
+            android:text="OtherTest" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SEP2PAppSDKDemo</string>
+    <string name="str_did">DID:</string>
+    <string name="str_user">用户名:</string>
+    <string name="str_pwd">密码:</string>
+    <string name="str_con">开始连接</string>
+    <string name="str_discon">断开连接</string>
+    <string name="str_start_search">开始搜索</string>
+     <string name="str_stop_search">断开搜索</string>
+    <string name="str_up">向上</string>
+    <string name="str_down">向下</string>
+    <string name="str_left">向左</string>
+    <string name="str_right">向右</string>
+    <string name="str_play_video">播放视频</string>
+    <string name="str_stop_video">暂停视频</string>
+    <string name="str_play_audio">播放语音</string>
+    <string name="str_stop_audio">暂停语音</string>
+    <string name="str_play_talk">播放对讲</string>
+    <string name="str_stop_talk">暂停对讲</string>
+	<string name="action_settings">Settings</string>
+	
+	<string name="str_play_snap">抓拍</string>
+    <string name="str_play_record">开始录像</string>
+    <string name="str_stop_record">停止录像</string>
+	<string name="ptz_takepic_ok">抓拍成功</string>
+    <string name="ptz_takepic_cancel">取消抓拍</string>
+    <string name="ptz_takepic_save_fail">抓拍失败</string>
+    <string name="sd_card_size_show">sdcard内存不足</string>
+    <string name="check_sd_card">请检查sdcard</string>
+    <string name="videoing">录像中...</string>
+    <string name="stopvideoing">停止录像</string>
+    
+   
+    <!-- 关于回放 -->
+    <string name="about_rec_back">录像回放</string>
+    <string name="obtain_rec_day">获取录像日期</string>
+    <string name="obtain_rec_file">获取录像文件</string>
+    <string name="start_rec_play">开始回放</string>
+    <string name="stop_rec_play">暂停回放</string>
+    <string name="plan_record">计划录像</string>
+    <string name="alarm_record">报警录像</string>
+    <string name="plan_alarm_record">计划/报警录像</string>
+    <string name="record_type">录像类型:</string>
+    <string name="record_date">录像日期:</string>
+    <string name="record_files">录像文件:</string>
+    
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SEP2PAppSDKDemo</string>
+    <string name="str_did">DID:</string>
+    <string name="str_user">Username:</string>
+    <string name="str_pwd">Password:</string>
+    <string name="str_con">Connect</string>
+    <string name="str_discon">Disconnect</string>
+    <string name="str_start_search">StartSearch</string>
+     <string name="str_stop_search">StopSearch</string>
+    <string name="str_up">Up</string>
+    <string name="str_down">Down</string>
+    <string name="str_left">Left</string>
+    <string name="str_right">Right</string>
+    <string name="str_play_video">StartVideo</string>
+    <string name="str_stop_video">StopVideo</string>
+    <string name="str_play_audio">StartAudio</string>
+    <string name="str_stop_audio">StopAudio</string>
+    <string name="str_play_talk">StartTalk</string>
+    <string name="str_stop_talk">StopTalk</string>
+    <string name="str_play_snap">Snap</string>
+    <string name="str_stop_snap">StopSnap</string>
+    <string name="str_play_record">StartRecord</string>
+    <string name="str_stop_record">StopRecord</string>
+    <string name="action_settings">Settings</string>
+    <string name="ptz_takepic_ok">Snap Success</string>
+    <string name="ptz_takepic_cancel">Snap Cancel</string>
+    <string name="ptz_takepic_save_fail">Snap Fail</string>
+    <string name="sd_card_size_show">SDcard memory is not enough</string>
+    <string name="check_sd_card">Please Check SDcard</string>
+    <string name="videoing">Videoing...</string>
+    <string name="stopvideoing">StopVideoing...</string>
+    
+    <string name="str_get_recfiles">getFile</string>
+    <string name="str_playback_start">playback</string>
+    <string name="str_playback_stop">stop</string>
+    
+    <!-- about record -->
+    <string name="about_rec_back">Record PlayBack</string>
+    <string name="obtain_rec_day">GetRecDate</string>
+    <string name="obtain_rec_file">GetRecFiles</string>
+    <string name="start_rec_play">StartPlayback</string>
+    <string name="stop_rec_play">StopPlayback</string>
+    <string name="plan_record">Plan Record</string>
+    <string name="alarm_record">Alarm Record</string>
+    <string name="plan_alarm_record">Plan/Alarm Record</string>
+    <string name="record_type">RecordType:</string>
+    <string name="record_date">RecordDate:</string>
+    <string name="record_files">RecordFiles:</string>
+    <string name="back">Back</string>
+   
+</resources>

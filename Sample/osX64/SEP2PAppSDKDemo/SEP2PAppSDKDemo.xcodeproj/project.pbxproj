@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821C96A21AA0938000068F74 /* libSmartP2P_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821C96A11AA0938000068F74 /* libSmartP2P_API.a */; };
+		8268229C196A7FBE00952CBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8268229B196A7FBE00952CBD /* Cocoa.framework */; };
+		826822A6196A7FBE00952CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 826822A4196A7FBE00952CBD /* InfoPlist.strings */; };
+		826822A8196A7FBE00952CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 826822A7196A7FBE00952CBD /* main.m */; };
+		826822AC196A7FBE00952CBD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 826822AA196A7FBE00952CBD /* Credits.rtf */; };
+		826822AF196A7FBE00952CBD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 826822AE196A7FBE00952CBD /* AppDelegate.mm */; };
+		826822B2196A7FBE00952CBD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826822B0196A7FBE00952CBD /* MainMenu.xib */; };
+		826822B4196A7FBE00952CBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826822B3196A7FBE00952CBD /* Images.xcassets */; };
+		826822BB196A7FBE00952CBD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826822BA196A7FBE00952CBD /* XCTest.framework */; };
+		826822BC196A7FBE00952CBD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8268229B196A7FBE00952CBD /* Cocoa.framework */; };
+		826822C4196A7FBE00952CBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 826822C2196A7FBE00952CBD /* InfoPlist.strings */; };
+		826822C6196A7FBE00952CBD /* SEP2PAppSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 826822C5196A7FBE00952CBD /* SEP2PAppSDKDemoTests.m */; };
+		826822D6196A80C700952CBD /* libSEP2P_AppSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826822D5196A80C700952CBD /* libSEP2P_AppSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		826822BD196A7FBE00952CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82682290196A7FBE00952CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82682297196A7FBE00952CBD;
+			remoteInfo = SEP2PAppSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		821C96A11AA0938000068F74 /* libSmartP2P_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSmartP2P_API.a; path = ../../../../Libs/osX64/Release/libSmartP2P_API.a; sourceTree = "<group>"; };
+		82682298196A7FBE00952CBD /* SEP2PAppSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEP2PAppSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8268229B196A7FBE00952CBD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8268229E196A7FBE00952CBD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8268229F196A7FBE00952CBD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		826822A0196A7FBE00952CBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		826822A3196A7FBE00952CBD /* SEP2PAppSDKDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEP2PAppSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		826822A5196A7FBE00952CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		826822A7196A7FBE00952CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		826822A9196A7FBE00952CBD /* SEP2PAppSDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SEP2PAppSDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		826822AB196A7FBE00952CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		826822AD196A7FBE00952CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		826822AE196A7FBE00952CBD /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		826822B1196A7FBE00952CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		826822B3196A7FBE00952CBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		826822B9196A7FBE00952CBD /* SEP2PAppSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEP2PAppSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		826822BA196A7FBE00952CBD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		826822C1196A7FBE00952CBD /* SEP2PAppSDKDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SEP2PAppSDKDemoTests-Info.plist"; sourceTree = "<group>"; };
+		826822C3196A7FBE00952CBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		826822C5196A7FBE00952CBD /* SEP2PAppSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEP2PAppSDKDemoTests.m; sourceTree = "<group>"; };
+		826822D1196A80BB00952CBD /* SEP2P_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEP2P_API.h; path = ../../../../Include/SEP2P_API.h; sourceTree = "<group>"; };
+		826822D2196A80BB00952CBD /* SEP2P_Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEP2P_Define.h; path = ../../../../Include/SEP2P_Define.h; sourceTree = "<group>"; };
+		826822D3196A80BB00952CBD /* SEP2P_Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEP2P_Error.h; path = ../../../../Include/SEP2P_Error.h; sourceTree = "<group>"; };
+		826822D4196A80BB00952CBD /* SEP2P_Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEP2P_Type.h; path = ../../../../Include/SEP2P_Type.h; sourceTree = "<group>"; };
+		826822D5196A80C700952CBD /* libSEP2P_AppSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSEP2P_AppSDK.a; path = ../../../../Libs/osX64/Release/libSEP2P_AppSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82682295196A7FBE00952CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8268229C196A7FBE00952CBD /* Cocoa.framework in Frameworks */,
+				826822D6196A80C700952CBD /* libSEP2P_AppSDK.a in Frameworks */,
+				821C96A21AA0938000068F74 /* libSmartP2P_API.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826822B6196A7FBE00952CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826822BC196A7FBE00952CBD /* Cocoa.framework in Frameworks */,
+				826822BB196A7FBE00952CBD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8268228F196A7FBE00952CBD = {
+			isa = PBXGroup;
+			children = (
+				826822A1196A7FBE00952CBD /* SEP2PAppSDKDemo */,
+				826822BF196A7FBE00952CBD /* SEP2PAppSDKDemoTests */,
+				8268229A196A7FBE00952CBD /* Frameworks */,
+				82682299196A7FBE00952CBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82682299196A7FBE00952CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82682298196A7FBE00952CBD /* SEP2PAppSDKDemo.app */,
+				826822B9196A7FBE00952CBD /* SEP2PAppSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8268229A196A7FBE00952CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8268229B196A7FBE00952CBD /* Cocoa.framework */,
+				826822BA196A7FBE00952CBD /* XCTest.framework */,
+				8268229D196A7FBE00952CBD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8268229D196A7FBE00952CBD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8268229E196A7FBE00952CBD /* AppKit.framework */,
+				8268229F196A7FBE00952CBD /* CoreData.framework */,
+				826822A0196A7FBE00952CBD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		826822A1196A7FBE00952CBD /* SEP2PAppSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				826822CF196A80A500952CBD /* Include */,
+				826822D0196A80AB00952CBD /* Lib */,
+				826822AD196A7FBE00952CBD /* AppDelegate.h */,
+				826822AE196A7FBE00952CBD /* AppDelegate.mm */,
+				826822B0196A7FBE00952CBD /* MainMenu.xib */,
+				826822B3196A7FBE00952CBD /* Images.xcassets */,
+				826822A2196A7FBE00952CBD /* Supporting Files */,
+			);
+			path = SEP2PAppSDKDemo;
+			sourceTree = "<group>";
+		};
+		826822A2196A7FBE00952CBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				826822A3196A7FBE00952CBD /* SEP2PAppSDKDemo-Info.plist */,
+				826822A4196A7FBE00952CBD /* InfoPlist.strings */,
+				826822A7196A7FBE00952CBD /* main.m */,
+				826822A9196A7FBE00952CBD /* SEP2PAppSDKDemo-Prefix.pch */,
+				826822AA196A7FBE00952CBD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		826822BF196A7FBE00952CBD /* SEP2PAppSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				826822C5196A7FBE00952CBD /* SEP2PAppSDKDemoTests.m */,
+				826822C0196A7FBE00952CBD /* Supporting Files */,
+			);
+			path = SEP2PAppSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		826822C0196A7FBE00952CBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				826822C1196A7FBE00952CBD /* SEP2PAppSDKDemoTests-Info.plist */,
+				826822C2196A7FBE00952CBD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		826822CF196A80A500952CBD /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				826822D1196A80BB00952CBD /* SEP2P_API.h */,
+				826822D2196A80BB00952CBD /* SEP2P_Define.h */,
+				826822D3196A80BB00952CBD /* SEP2P_Error.h */,
+				826822D4196A80BB00952CBD /* SEP2P_Type.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		826822D0196A80AB00952CBD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				821C96A11AA0938000068F74 /* libSmartP2P_API.a */,
+				826822D5196A80C700952CBD /* libSEP2P_AppSDK.a */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82682297196A7FBE00952CBD /* SEP2PAppSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826822C9196A7FBE00952CBD /* Build configuration list for PBXNativeTarget "SEP2PAppSDKDemo" */;
+			buildPhases = (
+				82682294196A7FBE00952CBD /* Sources */,
+				82682295196A7FBE00952CBD /* Frameworks */,
+				82682296196A7FBE00952CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEP2PAppSDKDemo;
+			productName = SEP2PAppSDKDemo;
+			productReference = 82682298196A7FBE00952CBD /* SEP2PAppSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		826822B8196A7FBE00952CBD /* SEP2PAppSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826822CC196A7FBE00952CBD /* Build configuration list for PBXNativeTarget "SEP2PAppSDKDemoTests" */;
+			buildPhases = (
+				826822B5196A7FBE00952CBD /* Sources */,
+				826822B6196A7FBE00952CBD /* Frameworks */,
+				826822B7196A7FBE00952CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826822BE196A7FBE00952CBD /* PBXTargetDependency */,
+			);
+			name = SEP2PAppSDKDemoTests;
+			productName = SEP2PAppSDKDemoTests;
+			productReference = 826822B9196A7FBE00952CBD /* SEP2PAppSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82682290196A7FBE00952CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = apollo;
+				TargetAttributes = {
+					826822B8196A7FBE00952CBD = {
+						TestTargetID = 82682297196A7FBE00952CBD;
+					};
+				};
+			};
+			buildConfigurationList = 82682293196A7FBE00952CBD /* Build configuration list for PBXProject "SEP2PAppSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8268228F196A7FBE00952CBD;
+			productRefGroup = 82682299196A7FBE00952CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82682297196A7FBE00952CBD /* SEP2PAppSDKDemo */,
+				826822B8196A7FBE00952CBD /* SEP2PAppSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82682296196A7FBE00952CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826822A6196A7FBE00952CBD /* InfoPlist.strings in Resources */,
+				826822B4196A7FBE00952CBD /* Images.xcassets in Resources */,
+				826822AC196A7FBE00952CBD /* Credits.rtf in Resources */,
+				826822B2196A7FBE00952CBD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826822B7196A7FBE00952CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826822C4196A7FBE00952CBD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82682294196A7FBE00952CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826822AF196A7FBE00952CBD /* AppDelegate.mm in Sources */,
+				826822A8196A7FBE00952CBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826822B5196A7FBE00952CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826822C6196A7FBE00952CBD /* SEP2PAppSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826822BE196A7FBE00952CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82682297196A7FBE00952CBD /* SEP2PAppSDKDemo */;
+			targetProxy = 826822BD196A7FBE00952CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		826822A4196A7FBE00952CBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826822A5196A7FBE00952CBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		826822AA196A7FBE00952CBD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826822AB196A7FBE00952CBD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		826822B0196A7FBE00952CBD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826822B1196A7FBE00952CBD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		826822C2196A7FBE00952CBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826822C3196A7FBE00952CBD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826822C7196A7FBE00952CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		826822C8196A7FBE00952CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		826822CA196A7FBE00952CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../Libs/osX64/Release,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DLINUX",
+					"-DLINUX_OSX",
+					"-DHAVE_MUTEX",
+					"-DHAVE_PTHREADS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		826822CB196A7FBE00952CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../Libs/osX64/Release,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DLINUX",
+					"-DLINUX_OSX",
+					"-DHAVE_MUTEX",
+					"-DHAVE_PTHREADS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		826822CD196A7FBE00952CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEP2PAppSDKDemo.app/Contents/MacOS/SEP2PAppSDKDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SEP2PAppSDKDemoTests/SEP2PAppSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		826822CE196A7FBE00952CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SEP2PAppSDKDemo.app/Contents/MacOS/SEP2PAppSDKDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SEP2PAppSDKDemo/SEP2PAppSDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "SEP2PAppSDKDemoTests/SEP2PAppSDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82682293196A7FBE00952CBD /* Build configuration list for PBXProject "SEP2PAppSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826822C7196A7FBE00952CBD /* Debug */,
+				826822C8196A7FBE00952CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826822C9196A7FBE00952CBD /* Build configuration list for PBXNativeTarget "SEP2PAppSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826822CA196A7FBE00952CBD /* Debug */,
+				826822CB196A7FBE00952CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826822CC196A7FBE00952CBD /* Build configuration list for PBXNativeTarget "SEP2PAppSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826822CD196A7FBE00952CBD /* Debug */,
+				826822CE196A7FBE00952CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82682290196A7FBE00952CBD /* Project object */;
+}

@@ -1,0 +1,27 @@
+
+OBJS_SERVER = SEP2PAppSDKDemo.o
+LIBS_SERVER = -L../../Libs/Linux/x86_64 -L./SE_VideoCodec/Lib/Linux/x86_64 -lSEP2P_AppSDK -lavcodec -lavformat -lavutil -lswresample -lSE_VideoCodec -lpthread
+
+CFLAGS = -I../../Include -I./SE_VideoCodec/Include -DLINUX -DAPP_VIDEO_SUPPORT_DECODE -c
+CXX = g++
+
+
+PROS = SEP2PAppSDKDemo
+
+all: $(PROS)
+
+.cpp.o:
+	$(CXX) $(CFLAGS) $<
+
+SEP2PAppSDKDemo: $(OBJS_SERVER)
+	$(CXX) -Wall -Wl,-rpath=./ -o $@ $^ $(LIBS_SERVER)
+
+	cp ./SE_VideoCodec/Lib/Linux/x86_64/*.so ./
+	cp ../../Libs/Linux/x86_64/*.so ./
+
+	ln -s ./libavcodec.so	./libavcodec.so.55
+	ln -s ./libavformat.so	./libavformat.so.55
+	ln -s ./libavutil.so	./libavutil.so.52
+
+clean:
+	rm -rf $(PROS) $(OBJS_SERVER) ./libavcodec.so.55 ./libavformat.so.55 ./libavutil.so.52 ./*.so ./*.bmp
